@@ -15,7 +15,7 @@ app.use(cors());
 app.use(express.json());
 
 mongoose.set("strictQuery", false);
-const url = "mongodb+srv://minsungk:creativeproject@cluster0.x6iqake.mongodb.net/task_db?retryWrites=true&w=majority"
+const url = "SANITIZED"
 
 mongoose.connect(url)
 .then( () => {
